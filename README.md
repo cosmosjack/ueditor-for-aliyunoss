@@ -25,7 +25,10 @@
   <li> oss apikey  和秘钥配置  《conf.inc.php》  在代码的前两个 我标有注释</li>
   <li> PDO 的配置  《uploader.class.php》《action_list.php》  在注释 PDO配置下边 修改</li>
    <li>上传文件的新的文件名字的配置 《uploadfile.php》    在 public function getSysSetPath() 方法里边 </li>
-  </ul>
+  <li>
+    数据表的 字段  id  int 主键  url  varchar(200)   mtime varchar(15)  size varchar(15) 
+  </li>
+    </ul>
      <hr>
 配置好后就可以直接访问 测试了
 
